@@ -88,6 +88,7 @@
 
 .aritcle_desing{
     width: 100%;
+    /* position:relative; */
 }
 
 .article_desing_img{
@@ -95,10 +96,12 @@
     display: block;
 }
 
-.article_desing_title,
-.article_desing_text{
-    transform: translate(.2rem,-10rem);
-    color: #000;
+.div_article_desing_content{
+    
+    position: absolute;
+    top: 550%;
     text-align: center;
-    margin: 10px;
+    
+
 }
+
