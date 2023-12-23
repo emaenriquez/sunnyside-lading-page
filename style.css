@@ -86,22 +86,89 @@
     text-align: center;
 }
 
-.aritcle_desing{
-    width: 100%;
-    /* position:relative; */
-}
 
+/* Article design */
 .article_desing_img{
     width: 100%;
     display: block;
 }
 
 .div_article_desing_content{
-    
     position: absolute;
     top: 550%;
     text-align: center;
-    
-
+    color: var(--Dark-desaturated-cyan);
 }
 
+.aritcle_desing_title{
+    font-family: 'Fraunces', serif;
+    margin-bottom: 6rem;
+}
+
+.article_desing_text{
+    font-family: 'Barlow', sans-serif; 
+    padding: 1.1rem;
+}
+
+/* article photography */
+
+.article_photography_img{
+    width: 100%;
+    display: block;
+}
+
+.div_article_photography_content{
+    position: absolute;
+    top: 725%;
+    text-align: center;
+    color: var(--Dark-blue);
+}
+
+.aritcle_photography_title{
+    font-family: 'Fraunces', serif;
+    margin-bottom: 6rem;
+}
+
+.article_photography_text{
+    font-family: 'Barlow', sans-serif; 
+    padding: 1.1rem;
+}
+
+/* article testimonials*/
+
+.article_testimonials{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 2.5rem;
+}
+
+.article_testimonials_title{
+    padding: 2rem;
+    font-family: 'Barlow', sans-serif; 
+    letter-spacing: 1px;
+    font-size: 22px;
+    color: var(--Very-dark-grayish-blue);
+    text-align: center;
+}
+
+.article_testimonials_img{
+    border-radius: 50%;
+}
+
+.article_testimonials_text{
+    padding: 1.5rem;
+    color: var(--Very-dark-grayish-blue);
+    /* font-weight: bold; */
+}
+.article_testimonials_name{
+    margin-bottom: .5rem;
+    color:var(--Very-dark-desaturated-blue);
+    font-weight: bold;
+}
+
+.article_testimonials_jobs{
+    color: var(--Dark-grayish-blue);
+}
